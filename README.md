@@ -25,7 +25,7 @@ Store the following information in the following GitHub secrets:
 - `APPLE_ID`: The Apple ID you use to access the App Store Connect API.
 - `APP_STORE_CONNECT_ISSUER_ID`: The issuer ID of the App Store Connect API is displayed in the App Store Connect API keys section.
 - `APP_STORE_CONNECT_API_KEY_ID`: The key ID of the API key created in the App Store Connect API keys section.
-- `APP_STORE_CONNECT_API_KEY_BASE64`: The content of the key created in App Store Connect condensed into a Base64 representation, e.g., using `base64 AuthKey_ABCDEFGHIJ.p8 | pbcopy`.
+- `APP_STORE_CONNECT_API_KEY_BASE64`: The content of the key created in App Store Connect condensed into a Base64 representation, e.g., using `base64 -i AuthKey_ABCDEFGHIJ.p8 | pbcopy`.
 
 ### Apple Xcode Certificate and Provisioning Profile
 
